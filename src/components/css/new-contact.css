@@ -1,0 +1,123 @@
+.card{
+    background-color: #fff;
+    margin: 20px auto;
+    width: 350px;
+    height: 540px;
+    border-radius: 8px;
+    padding: 12px 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar{
+    display: flex;
+    margin: 11px 0;
+    justify-content: space-around;
+}
+
+.add-new-contact{
+    font-family: "muli", sans-serif;
+    font-size: 21px;
+    text-align-last: center;
+    color: #1e2c57;
+    margin: auto;
+}
+
+.line{
+    margin-top: 15px;
+    color: rgb(114, 111, 111);
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    width: 170px;
+    background-color: rgb(72, 72, 148);
+    color: white;
+    border-radius: 9px;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transform: translateY(30px);
+}
+
+.custom-file-upload:hover{
+    background-color: rgb(19, 119, 185);
+}
+
+.contact-pic{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+    border-radius: 16px ;
+    border: none;
+}
+
+.new-contact-form{
+    display:flex;
+    flex-direction: column;
+}
+
+.submit-form{
+    width: 130px;
+    height: 37px;
+    position: relative;
+    left: 180px;
+    top: 10px;
+    background-color: #6495ED ;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-control{
+    margin: 0 15px 15px;
+}
+
+.submit-form:hover{
+    background-color: #0096FF;
+}
+
+.form-input{
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 16px;
+    border: 1.5px solid ;
+    font-size: 16px;
+}
+
+.form-input:focus{
+    outline: none;
+}
+
+.phone-form{
+    margin-top: 10px;
+    width: 80%;
+    height: 25px;
+    align-items: center;
+    border: none;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.phone-form:focus{
+    outline: none;
+}
+
+.go-back{
+    width: 40px;
+    height: 40px;
+    transform: translateX(20px);
+    cursor: pointer;
+}

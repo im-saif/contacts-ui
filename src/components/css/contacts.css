@@ -1,0 +1,163 @@
+@import url("https://use.typekit.net/zsg8mct.css");
+
+html{
+    background-color: #cfd8dd;
+}
+.card{
+    background-color: #fff;
+    margin: 20px auto;
+    width: 350px;
+    height: 540px;
+    border-radius: 8px;
+    padding: 12px 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar{
+    display: flex;
+    margin: 11px 0;
+    justify-content: space-around;
+}
+
+.title{
+    font-family: "muli", sans-serif;
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+    color: #242e4c;
+}
+
+.bars{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.search{
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.line{
+    margin-top: 15px;
+    color: rgb(114, 111, 111);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-thumb{
+    background:rgb(114, 111, 111);
+    border-radius: 10px;
+}
+   
+  /* Handle */
+.contacts::-webkit-scrollbar-thumb {
+    background: #00affe; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+.contacts::-webkit-scrollbar-thumb:hover {
+    background: darkblue; 
+  }
+
+.contact{
+    padding: 15px;
+    display: flex;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.contact-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+}
+
+.contact-name{
+    color: #242e4c;
+    margin-left: 7px;
+    transform: translateY(15px);
+    font-size: 16px;
+    font-family: "muli", sans-serif;
+}
+
+.close-search{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    transform: translateX(35px);
+}
+
+.search-bar{
+    transform: translateY(-10px);
+    width: 200px;
+    height: 35px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid #51b6e6;
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+.nothing-found{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sort-dropdown{
+    border: none;
+    border-bottom: 1px solid black ;
+}
+
+.sort-dropdown:focus{
+    outline: none;
+}
+
+.add-contact{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+    bottom: 60px;
+}
+
+.delete-contact{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.contact-number{
+    color: grey;
+    position: relative;
+    top: 35px;
+    left: -70px;
+    font-size: 14px;
+}
